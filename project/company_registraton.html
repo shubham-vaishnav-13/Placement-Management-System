@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Company Registration</title>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Company Registration</title>
+    <link rel="stylesheet" href="company_registraton.css">
+    <link rel="icon" type="image/png" href="images/11.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  </head>
+  <body>
+  
+  <div class="login-box" style="width: 650px;">
+  
+    <a href="index.html">
+      <img src="logo2.png" style="height: 68px; padding-left: 277px; position: relative; left: -85px;">
+    </a>
+  
+    <h1>Register Your Company</h1>
+  
+    <form action="register_company.php" method="post" enctype="multipart/form-data">
+      <div class="user-box">
+        <input type="text" name="company_name" required="">
+        <label>Company Name</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="business_email" required="">
+        <label>Business Email</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="password" required="">
+        <label>Password</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="phone_no" required="">
+        <label>Phone No.</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="website" required="">
+        <label>Website</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="description" required="">
+        <label>Description</label>
+      </div>
+      <div class="user-box">
+        <input type="text" name="address" required="">
+        <label>Address</label>
+      </div>
+      <div class="field image" style="position: relative; color: white;">
+        <label>Select Logo</label><br>
+        <input type="file" name="logo" required="" style="position: relative; cursor:pointer; font-size: 15px;padding-top: 10px;">
+      </div>
+      <div class="button">
+        <input type="submit" value="Submit" style="position: relative; top: -30px;background-color: transparent;cursor: pointer; border: 1px solid #03e9f4; border-radius: 10px;" class="b1">
+      </div>
+      <div class="error-txt" style="
+        color: #721c24;
+        background: #f8d7da;
+        padding: 8px 10px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #f5c6cb;
+        display: none;
+        top: 5px;"></div>
+      <script src="js/company_signup.js"></script>
+  
+</form>
+  
+  </div>
+  
+  </body>
+  </html>
