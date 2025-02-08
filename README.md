@@ -78,11 +78,8 @@ http://localhost/Placement-Management-System
 
 ---
 
-## 📸 Screenshots
-
-*Include relevant screenshots of the application here.*
-
-Live Demo : 
+## 📸 Running Demo
+Youtube Link  : https://youtu.be/plB3oW-7ABQ 
 ---
 
 ## 🤝 Contributing
